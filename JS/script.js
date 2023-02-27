@@ -75,7 +75,7 @@ function initMap() {
 			'<a href="' + currMarker[6] + '">' + "Quiero saber más</a> ";
 
 		const infowindow = new google.maps.InfoWindow({
-			content: currMarker[0], contentString
+			content: currMarker[0], contentString,
 		});
 
 		marker.addListener('click', () => {
