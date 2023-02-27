@@ -72,7 +72,7 @@ function initMap() {
 		});
 
 		const contentString =
-			currMarker[0] + '<br /><a href="' + currMarker[6] + '">' + "Quiero saber más</a> ";
+			'<center>' + currMarker[0] + '<br /><a href="' + currMarker[6] + '">' + "Quiero saber más</a></center> ";
 
 		const infowindow = new google.maps.InfoWindow({
 			content: contentString
