@@ -18,10 +18,10 @@ function initMap() {
 	// scaledSize width, height
 	const markers = [
 		[
-			"Yoshi's House",
-			34.66669734177897,
-			135.4309054875526,
-			'yoshi_house.svg',
+			"BeerBurger",
+			26.500915919899782,
+			-100.18749992718783,
+			'IMG/burger.svg',
 			38,
 			31,
 		],
