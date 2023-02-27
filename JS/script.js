@@ -24,6 +24,7 @@ function initMap() {
 			'IMG/burger.svg',
 			38,
 			31,
+			"https://www.piido.mx/beerburger/",
 		],
 		[
 			'You Are Here',
@@ -52,23 +53,8 @@ function initMap() {
 			50,
 			60.7,
 		],
-		[
-			'Donut Plains',
-			34.66829411443392,
-			135.43231361996433,
-			'hill_with_eyes.svg',
-			50,
-			60.7,
-		],
-		[
-			'Donut Plains',
-			34.6683781779677,
-			135.43217016043528,
-			'hill_with_eyes.svg',
-			50,
-			60.7,
-		],
 	];
+
 
 	for (let i = 0; i < markers.length; i++) {
 		const currMarker = markers[i];
@@ -84,8 +70,12 @@ function initMap() {
 			animation: google.maps.Animation.DROP,
 		});
 
+		const contentString =
+			'<a href="' + currMarker[6] + '">' + "Quiero saber más</a> ";
+
 		const infowindow = new google.maps.InfoWindow({
 			content: currMarker[0],
+			content: contentString,
 		});
 
 		marker.addListener('click', () => {
