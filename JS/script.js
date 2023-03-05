@@ -17,7 +17,7 @@ function initMap() {
 	// Image URL
 	// scaledSize width, height
 	const markers = [
-		['Tacos Los Cuates', 26.504035902851417, -100.18099243250852, 'taco.svg', 48, 48],
+		['Tacos Los Cuates', 26.504035902851417, -100.18099243250852, 'IMG/taco.svg', 48, 48, "https://www.piido.mx/tacos-los-cuates/"],
 		[
 			"BeerBurger",
 			26.500915919899782,
