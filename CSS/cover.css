@@ -78,7 +78,7 @@ h1 {
 }
 
 #map_container {
-  position: relative;
+  position: center;
   padding-top: 1%;
 }
 
