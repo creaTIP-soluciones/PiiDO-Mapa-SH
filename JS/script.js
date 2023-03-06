@@ -5,7 +5,7 @@ function initMap() {
 			lat: 26.50549170610216,
 			lng: -100.17891786288878,
 		},
-		zoom: 18,
+		zoom: 16,
 		mapId: 'c9b8fd842dc062ef',
 		mapTypeControl: false,
 		fullscreenControl: false,
