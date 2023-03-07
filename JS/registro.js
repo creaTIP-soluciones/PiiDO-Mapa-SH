@@ -57,8 +57,8 @@ function initMap() {
 		['Crazy Snacks', 26.49722669610493, -100.18671585890165, 'IMG/snack.svg', 40, 40, "https://www.piido.mx/crazy-snacks/"],
 		['KIRAL Psicología y Terapia Ocupacional', 26.50470840780914, -100.17684506562728, 'IMG/consultorio.svg', 40, 40, "https://www.piido.mx/kiral/"],
 	];
-
-
+    
+    
 	for (let i = 0; i < markers.length; i++) {
 		const currMarker = markers[i];
 
