@@ -80,7 +80,7 @@ function initMap() {
 			content: contentString
 		});
 
-		var activeInfoWindow;
+		const activeInfoWindow;
 
 		marker.addListener('click', () => {
 			if (activeInfoWindow) { activeInfoWindow.close(); }
