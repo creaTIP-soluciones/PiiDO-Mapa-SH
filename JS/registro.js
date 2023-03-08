@@ -83,7 +83,7 @@ function initMap() {
 		var activeInfoWindow;
 
 		marker.addListener('click', () => {
-			if (activeInfoWindow){ activeInfoWindow.close(); }
+			if (activeInfoWindow) { activeInfoWindow.close(); }
 			infowindow.open(map, marker);
 			activeInfoWindow = InfoWindow;
 		});
