@@ -86,8 +86,10 @@ function initMap() {
 
 		google.maps.event.addListener(marker, 'click', function() {
 			if (infowindow) infowindow.close();
-			infowindow = new google.maps.InfoWindow({content: contentString});
-			infowindow.open(map,marker);
+			infowindow = new google.maps.InfoWindow({
+				content: contentString
+			});
+			infowindow.open(map, marker);
 		});
 
 
