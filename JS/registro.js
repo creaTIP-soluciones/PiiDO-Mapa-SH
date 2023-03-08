@@ -76,7 +76,7 @@ function initMap() {
 		const contentString =
 			'<center>' + currMarker[0] + '<br /><a href="' + currMarker[6] + '" target="_blank">' + "Quiero saber más</a></center> ";
 
-		const infowindow = new google.maps.InfoWindow({
+		infowindow = new google.maps.InfoWindow({
 			content: contentString
 		});
 
