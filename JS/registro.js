@@ -80,8 +80,12 @@ function initMap() {
 			content: contentString
 		});
 
+		var activeInfoWindow;
+
 		marker.addListener('click', () => {
+			if (activeInfoWindow){ activeInfoWindow.close(); }
 			infowindow.open(map, marker);
+			activeInfoWindow = InfoWindow;
 		});
 	}
 }
