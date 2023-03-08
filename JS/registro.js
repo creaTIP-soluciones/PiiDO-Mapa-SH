@@ -80,8 +80,16 @@ function initMap() {
 			content: contentString
 		});
 
-		marker.addListener('click', () => {
-			infowindow.open(map, marker);
+		//marker.addListener('click', () => {
+		//	infowindow.open(map, marker);
+		//});
+
+		google.maps.event.addListener(marker, 'click', function() {
+			if (infowindow) infowindow.close();
+			infowindow = new google.maps.InfoWindow({content: contentString});
+			infowindow.open(map,marker);
 		});
+
+
 	}
 }
