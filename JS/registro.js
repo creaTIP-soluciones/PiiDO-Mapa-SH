@@ -56,6 +56,14 @@ function initMap() {
 		['YNNA Grosery Store', 26.48966929876741, -100.18743891288264, 'IMG/tienda.svg', 40, 40, "https://www.piido.mx/ynna-grosery-store/"],
 		['Crazy Snacks', 26.49722669610493, -100.18671585890165, 'IMG/snack.svg', 40, 40, "https://www.piido.mx/crazy-snacks/"],
 		['KIRAL Psicología y Terapia Ocupacional', 26.50470840780914, -100.17684506562728, 'IMG/consultorio.svg', 40, 40, "https://www.piido.mx/kiral/"],
+		['GRATIS Tu Negocio AQUI !!', 26.487807563593233, -100.18585152488602, 'IMG/duda.svg', 40, 40, "https://www.piido.mx/anunciate/"],
+		['GRATIS Tu Negocio AQUI !!', 26.498485183759442, -100.20516342934864, 'IMG/duda.svg', 40, 40, "https://www.piido.mx/anunciate/"],
+		['GRATIS Tu Negocio AQUI !!', 26.50954584485541, -100.18404908046952, 'IMG/duda.svg', 40, 40, "https://www.piido.mx/anunciate/"],
+		['GRATIS Tu Negocio AQUI !!', 26.50747205200719, -100.17100281612143, 'IMG/duda.svg', 40, 40, "https://www.piido.mx/anunciate/"],
+		['GRATIS Tu Negocio AQUI !!', 26.501173636831588, -100.1831907736045, 'IMG/duda.svg', 40, 40, "https://www.piido.mx/anunciate/"],
+		['GRATIS Tu Negocio AQUI !!', 26.506550354280133, -100.16774125003441, 'IMG/duda.svg', 40, 40, "https://www.piido.mx/anunciate/"],
+		['GRATIS Tu Negocio AQUI !!', 26.497793857089494, -100.18907017562978, 'IMG/duda.svg', 40, 40, "https://www.piido.mx/anunciate/"],
+		['GRATIS Tu Negocio AQUI !!', 26.505244603175278, -100.20872540283841, 'IMG/duda.svg', 40, 40, "https://www.piido.mx/anunciate/"],
 	];
 
 
